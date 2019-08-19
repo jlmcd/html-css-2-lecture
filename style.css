@@ -4,7 +4,7 @@ body, html {
   background: #f6f6f6;
   margin: 0;
 }
-.header {
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -20,22 +20,27 @@ body, html {
   font-family: 'Damion', cursive;
 }
 
-.nav {
+nav {
   font-family: 'Roboto', sans-serif;
+  display: flex;
 }
 
-.nav a {
+nav li {
+  list-style: none;
+}
+
+nav a {
   text-decoration: none;
   color: black;
   cursor: pointer;
   margin: 0 1rem;
 }
 
-.nav a:hover {
+nav a:hover {
   color: #6e9e6f
 }
 
-.figure {
+figure {
   background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZFqRyHw6PY2RmpSj6Biboy8pevxhHUlUG79iBjAdLm7FieUzoGw') center;
   height: 80vh;
   background-position: top;
@@ -45,21 +50,22 @@ body, html {
   align-items: center;
   flex-direction: column;
   font-family: 'Roboto', sans-serif;
+  margin: 0;
 }
-.figure h1 {
+figure h1 {
   font-size: 2.4rem;
   margin-bottom: 1rem;
 }
-.figure h1 span {
+figure h1 span {
   font-family: 'Damion', cursive;
   font-size: 3rem;
 }
-.figure h2 {
+figure h2 {
   font-size: 1.3rem;
   font-style: italic;
   margin-bottom: 2rem;
 }
-.figure button {
+figure button {
   background: none;
   border: 2px solid #333;
   border-radius: 8px;
@@ -67,12 +73,12 @@ body, html {
   padding: .5rem 1rem;
   transition: .3s;
 }
-.figure button:hover {
+figure button:hover {
   border-color: #FF0000;
   color: #FF0000;
 }
 
-.main {
+main {
   margin: 0 auto;
   max-width: 1200px;
 }
@@ -82,7 +88,7 @@ body, html {
   justify-content: space-around;
 }
 
-.footer {
+footer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -90,21 +96,21 @@ body, html {
   height: 70px;
 }
 
-.blockquote {
+blockquote {
   margin-left: 3rem;
 }
 
-.aside {
+aside {
   float: right;
   text-align: right;
   margin-bottom: 3rem;
 }
 
-.aside li {
+aside li {
   list-style: none;
   margin: .5rem 0;
 }
 
-.article, .aside {
+article, aside {
   margin-top: 5rem;
 }
