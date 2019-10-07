@@ -1,5 +1,5 @@
 let pageName = 'Webby'
-let nameList = ['Webby', 'Siteable', 'ClickClack', 'Website']
+let nameList = ['Webby', 'Siteable', 'ClickClack', 'Website', 'WebPage']
 let logo = document.getElementById('logo')
 let main = document.getElementById('main-name')
 
